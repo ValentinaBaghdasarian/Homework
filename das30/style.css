@@ -1,0 +1,9 @@
+body{
+    background-image: url("https://worldofprintables.com/wp-content/uploads/2021/04/Mountain-Blue-Aesthetic-Wallpaper.jpg")
+
+}
+#globalDiv{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
