@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Film application</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div id="top_nav">
+		<div class="container">
+			<div id="social">
+				<a href="#">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<a href="#">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="#">
+					<i class="fa fa-youtube-play"></i>
+				</a>
+			</div>
+			<div id="login">
+				<a href="#" data-in>Sign in</a>
+				<a href="#" data-up>Sign up</a>
+			</div>
+		</div>
+	</div>
+	<nav>
+		<div class="container">
+			<div id="logo">
+				<a href="index.html">
+					FILM APP
+				</a>
+			</div>
+			<ul id="menu">
+				<li><a href="#"> Comedy</a></li>
+				<li><a href="#">Fantasy</a></li>
+				<li><a href="#">Sport</a></li>
+				<li><a href="#">Drama</a></li>
+				<li><a href="#">Adventure</a></li>
+				<li><a href="#">Action</a></li>
+			</ul>
+			<!-- my code -->
+				<a href="#" class="icon1">
+					<i class="fa fa-bars"></i>
+				</a>
+		</div>
+	</nav>
+	<header>
+		<img src="img/bg1.jpg" alt="film cover">
+	</header>
+	<main>
+		<div class="container">
+			<div id="main_header">
+				<div id="films"></div>
+
+				<form id="add">
+					<input type="text" placeholder="type here...">
+					<button>Add film</button>
+
+					<div id="isFavorite">
+						<label>
+							<input type="checkbox" name="favorite">
+							add to favorite
+						</label>
+					</div>
+				</form>
+			</div>
+
+			<div id="main_promo">
+				<div class="mp">
+					<img src="https://pbs.twimg.com/media/EgSimvaWAAEUdh8.png" alt="a">
+				</div>
+				<div class="mp">
+					<img src="https://www.psdstamps.com/wp-content/uploads/2019/11/promo-stamp-png.png" alt="b">
+				</div>
+				<div class="mp">
+					<img src="https://coffeeshop-cannabis.com/wp-content/uploads/2022/02/code-promo-1.png" alt="c">
+				</div>
+			</div>
+		</div>
+		<div class="tabs container">
+			<h2>Our Services</h2>
+
+			<div class="tab">
+				<div class="tab_btns">
+					<div class="tab_btn tab_btn-active">About Us</div>
+					<div class="tab_btn">Terms & Conditions</div>
+					<div class="tab_btn">Privacy Policy</div>
+				</div>
+				<div class="tab_bodys">
+					<div class="tab_body tab_body-active">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti autem illo debitis ea dolore laborum veniam repellendus ab sit aperiam, corporis, expedita, blanditiis beatae error facere aspernatur. Repellat itaque animi temporibus impedit porro asperiores autem quas accusamus enim rerum et neque aut, quibusdam placeat, iste consequatur beatae quae maxime. Deserunt repudiandae vero labore!</p>
+					</div>
+					<div class="tab_body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, fuga eum recusandae beatae laudantium cupiditate! Ad alias, nisi labore provident quidem quaerat eveniet delectus expedita quibusdam, culpa pariatur laudantium mollitia illum, omnis porro debitis ratione. Nulla corporis deleniti odio error.</p>
+					</div>
+					<div class="tab_body">
+						<p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Коварный семантика грамматики единственное он безорфографичный путь взгляд запятой послушавшись ему от всех что они себя снова живет злых, языкового заголовок свой реторический! Продолжил, образ скатился. Послушавшись над точках переулка использовало?</p>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</main>
+	<div class="modal_wrapper" data-in-modal>
+		<form data-sigin>
+			<h3>Sign In</h3>
+			<input type="text" name="username-or-email" placeholder="username or email" data-username>
+			<input type="password" name="password" placeholder="your password" data-password>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
