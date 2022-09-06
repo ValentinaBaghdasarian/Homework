@@ -1,20 +1,23 @@
-const p = document.querySelector("#text");
+const body = document.body;
 const btn = document.querySelector("#btn");
 
 
 function bodyColor(){
-    return Math.floor(Math.random()*16777215).toString(16);
+    return `#${Math.floor(Math.random()*16777215).toString(16)}`;
 };
 
-window.addEventListener("scroll", (e) =>{
-   let i = 100;
-    if(e.target.scrollTop === i){
-        document.body.style.background = bodyColor(); 
-        i += 100   
+document.addEventListener("scroll", (e) =>{
+    console.log(window.scrollY);
+    if(window.scrollY % 100 === 0){ //e.target.scrollTop
+        body.style.background = `${bodyColor()}`; 
     }
-    if(e.target.scrollTop === 1000) btn.style.display = "block"; 
+    if(window.scrollY >= 6494) btn.style.display = "block"; 
 });
 
 btn.addEventListener("click", e =>{
     window.scrollTo(0,0);
+    // body.style.background = "black"
 });
+
+
+
