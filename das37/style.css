@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: yellow;
+}
+
+p{
+    width: 300px;
+    height: 1000px;
+}
+
+#btn{
+    margin: 30px auto;
+    width: 60px;
+    height: 40px;
+    display: none;
+    font-size: 18px;
+    cursor: pointer;
+}
