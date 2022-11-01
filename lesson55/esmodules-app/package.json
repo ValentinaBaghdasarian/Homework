@@ -1,0 +1,22 @@
+{
+  "name": "esmodules-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dbserv": "json-server db.json -p 8888 -w true",
+    "wpack": "npx webpack"
+  },
+  "keywords": [
+    "CRUD",
+    "Native",
+    "JS",
+    "ToDo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
